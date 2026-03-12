@@ -1,2 +1,2 @@
 #!/bin/bash
-python expobin.py
+python3 expobin.py "$1" "$2" "$3"
