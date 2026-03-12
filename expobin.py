@@ -23,5 +23,11 @@ def exponenciacion_binaria(M, e, n):
             
     return C
 
-resultado = exponenciacion_binaria(2, 1234, 789)
-print(resultado)
+if __name__ == "__main__":
+    if len(sys.argv) > 3:
+        # Los argumentos vienen como texto, hay que pasarlos a entero
+        M = int(sys.argv[1])
+        e = int(sys.argv[2])
+        n = int(sys.argv[3])
+        print(exponenciacion_binaria(M, e, n))
+
