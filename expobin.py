@@ -23,10 +23,5 @@ def exponenciacion_binaria(M, e, n):
             
     return C
 
-# Ejercicio:
-M_val = 2   # Base 
-e_val = 1234 # Exponente 
-n_val = 789 # Módulo
-
-resultado = exponenciacion_binaria(M_val, e_val, n_val)
+resultado = exponenciacion_binaria(2, 1234, 789)
 print(resultado)
